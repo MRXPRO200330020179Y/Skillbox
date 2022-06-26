@@ -2,8 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MainPage from '@/pages/MainPage';
 import ProductPage from '@/pages/ProductPage';
-import NotFoundPage from '@/pages/NotFoundPage';
 import CartPape from '@/pages/CartPape';
+import Look404 from '@/pages/Look404';
 
 Vue.use(VueRouter)
 
@@ -28,8 +28,8 @@ const routes = [
 
   {
     path: '*',
-    name: 'notFound',
-    component: NotFoundPage
+    name: 'Look404',
+    component: Look404
   },
 ]
 
